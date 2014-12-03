@@ -1,4 +1,6 @@
-# MessagePack for Ruby
+# Ably fork of MessagePack for Ruby
+
+This fork is needed until [the binary support PR](https://github.com/msgpack/msgpack-ruby/pull/45) is added to the [origin MessagePack gem](https://github.com/msgpack/msgpack-ruby).
 
 ```
 require 'msgpack'
@@ -9,7 +11,7 @@ MessagePack.unpack(msg)   #=> [1,2,3]
 ## Install
 
 ```
-gem install msgpack
+gem install msgpack-ably
 ```
 
 ## Use cases
@@ -22,6 +24,7 @@ gem install msgpack
 
 * [Github](https://github.com/msgpack/msgpack-ruby)
 * [API document](http://ruby.msgpack.org/)
+* [MessagePack spec](https://github.com/msgpack/msgpack/blob/master/spec.md)
 
 ## Streaming API
 
